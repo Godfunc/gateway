@@ -3,10 +3,10 @@ spring:
     nacos:
       config:
         file-extension: yaml
-        group: gateway
+        group: GPay
       discovery:
         group: GPay
   application:
     name: gateway
   profiles:
-    active: dev
+    active: test
